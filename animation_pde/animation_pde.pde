@@ -1,9 +1,9 @@
                         
 /**
- * <program/assignment name>
- * by <Your Name>
+ * processing-graphics-6-simple-animation
+ * by Sarah Flesher
  *
- * <Two sentence description of program>
+ * This is an assignment for Comp Sci 10. Finally animating!
  *
  */
 
