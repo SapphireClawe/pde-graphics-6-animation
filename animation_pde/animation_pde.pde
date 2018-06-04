@@ -9,10 +9,15 @@
 
 void setup() {
   size(800, 800);
-  background(62, 203, 250);
+  frameRate(30);
+  
+  
 
 }
 
 void draw() {
+  background(62, 203, 250);
+  
+  ellipse(400, 400, 100, 100);
 
 }
