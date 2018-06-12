@@ -18,9 +18,12 @@ void draw() {
   background(62, 203, 250);
   ellipseMode(CENTER);
   ellipse(x, y, 100, 100);
-    x = x = delta;
+  x = x + delta;
     
-    if (x - 50 < 0); {
-      delta = x+1;
+    if (x > 800 - 50) {
+      delta = -5;
+    }
+    if (x < 50) {
+      delta = 5;
     }
 }
