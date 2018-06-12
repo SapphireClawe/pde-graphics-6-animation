@@ -19,5 +19,8 @@ void draw() {
   ellipseMode(CENTER);
   ellipse(x, y, 100, 100);
     x = x = delta;
-
+    
+    if (x - 50 < 0); {
+      delta = x+1;
+    }
 }
